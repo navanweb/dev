@@ -1,0 +1,265 @@
+/* font-family: 'Saira', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background-color: #29a6dc;
+    height: 100vh;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header>* {
+    position: absolute;
+}
+
+header img {
+    position: absolute;
+    height: 50%;
+    bottom: 2%;
+    right: 25%;
+    /* transform: translateX(50%); */
+}
+
+header div.welcome {
+    z-index: 1;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+header h1 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+header h2 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+header button {
+    line-height: 32px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    font-size: 12px;
+    border: 2px solid white;
+}
+
+/* Orientation Portrait */
+
+@media (orientation:portrait) and (min-width: 360px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    header button {
+        margin-top: 30px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+}
+
+/* Iphone X  portrait */
+
+@media (orientation:portrait) and (min-width: 375px) {
+    header img {
+        /* transform: translate(33%, -10%); */
+        right: 20%;
+        bottom: 10%;
+    }
+}
+
+@media (orientation:portrait) and (min-width: 410px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    header h2 {
+        font-size: 26px;
+    }
+
+    header button {
+        margin-top: 10px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    header img {
+        right: 25%;
+        bottom: 2%;
+    }
+}
+
+@media (orientation:portrait) and (min-width: 768px) {
+    header p {
+        font-size: 55px;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    header h2 {
+        margin-top: 2%;
+        font-size: 36px;
+    }
+
+    header button {
+        margin-top: 30px;
+        line-height: 60px;
+        font-size: 26px;
+    }
+
+    header img {
+        /* transform: translate(85%, -10%); */
+        right: 31%;
+        bottom: 2%;
+
+    }
+}
+
+/* Orientation landcape */
+
+@media (orientation:landscape) {
+    header img {
+        height: 80%;
+        /* transform: translate(250%, -10%); */
+        bottom: 10%;
+        right: 10%;
+    }
+
+    header div.welcome {
+        top: 10%;
+        left: 5%;
+        right: 45%;
+    }
+}
+
+@media (orientation: landscape) and (min-width:640px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 24px;
+    }
+
+    header button {
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+
+/* Iphone X landscape */
+
+@media (orientation: landscape) and (min-width:812px) {
+    header h2 {
+        margin-top: 20px;
+    }
+
+    header img {
+        /* transform: translate(320%, -10%); */
+        right: 10%;
+        bottom: 10%;
+    }
+
+    header button {
+        margin-top: 30px;
+        font-size: 20px;
+        line-height: 45px;
+    }
+}
+
+@media (orientation: landscape) and (min-width:1024px) {
+    header p {
+        font-size: 56px;
+    }
+
+    header h1 {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 40px;
+    }
+
+    header button {
+        margin-top: 80px;
+        font-size: 28px;
+        line-height: 70px;
+    }
+
+    header img {
+        /* transform: translate(180%, -13%); */
+        right: 5%;
+        bottom: 10%;
+    }
+}
+
+@media (orientation: landscape) and (min-width:1280px) {
+    header div.welcome {
+        text-align: left;
+    }
+
+    header p {
+        font-size: 100px;
+    }
+
+    header h1 {
+        margin-top: 40px;
+        font-size: 50px;
+    }
+
+    header h2 {
+        font-size: 50px;
+    }
+
+    header button {
+        margin-top: 50px;
+        font-size: 28px;
+        line-height: 70px;
+        border-width: 4px;
+    }
+
+    header img {
+        /* transform: translate(250%, -13%); */
+        right: 10%;
+    }
+}
+
+@media (min-width: 1024px) {
+    header button {
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    header button:hover {
+        background-color: #fff;
+        color: #29a6dc;
+    }
+}
+
+h3 {
+    height: 100vh;
+}

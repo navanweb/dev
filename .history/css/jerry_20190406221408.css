@@ -1,0 +1,159 @@
+/* font-family: 'Saira', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background-color: #29a6dc;
+    height: 100vh;
+    overflow: hidden;
+    /* max-width: 1920px; */
+    /* margin: 0 auto; */
+}
+
+header>* {
+    position: absolute;
+}
+
+header img {
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    transform: translateX(50%);
+}
+
+header div.welcome {
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+header h1 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+header h2 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+header button {
+    line-height: 32px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    font-size: 12px;
+    border: 2px solid white;
+}
+
+@media (orientation:portrait) and (min-width: 360px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    header button {
+        margin-top: 30px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+}
+
+/* Iphone X  portrait */
+
+@media (orientation:portrait) and (min-width: 375px) {
+    header img {
+        transform: translateX(350%);
+    }
+}
+
+@media (orientation:portrait) and (min-width: 410px) {
+    header h1 {
+        font-size: 26px;
+    }
+
+    header h2 {
+        font-size: 26px;
+    }
+
+    header button {
+        margin-top: 10px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media (orientation:landscape) {
+    header img {
+        height: 80%;
+        transform: translate(250%, -10%);
+        /* bottom: 0; */
+        /* right: 15%; */
+    }
+
+    header div.welcome {
+        top: 10%;
+        left: 5%;
+        right: 45%;
+    }
+}
+
+@media (orientation: landscape) and (min-width:640px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header h2 {
+        font-size: 24px;
+    }
+
+    header button {
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+
+@media (orientation: landscape) and (min-width:1024px) {
+    header p {
+        font-size: 56px;
+    }
+
+    header h1 {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    header h2 {
+        font-size: 40px;
+    }
+
+    header button {
+        margin-top: 80px;
+        font-size: 26px;
+        line-height: 60px;
+    }
+
+    header img {
+        transform: translate(180%, -10%);
+    }
+}
+
+h3 {
+    height: 100vh;
+}
