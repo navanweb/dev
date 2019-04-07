@@ -301,9 +301,9 @@ section {
 }
 
 section div {
-    height: 100px;
-    width: 100px;
-    border: solid 2px #29a6dc;
+    /* height: 100px; */
+    /* width: 100px; */
+    border: solid 2px green;
     text-align: center;
-    line-height: 100px;
+    /* line-height: 100px; */
 }

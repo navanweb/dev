@@ -262,6 +262,7 @@ h3 {
     font-family: 'Saira', sans-serif;
     font-weight: bold;
     background-color: #29a6dc;
+    font-size: 35px;
     color: white;
     text-transform: uppercase;
     height: 10vh;
@@ -276,12 +277,6 @@ h3 {
     }
 }
 
-@media (min-width:640px) {
-    h3 {
-        font-size: 30px;
-    }
-}
-
 @media (min-width:768px) {
     h3 {
         font-size: 45px;
@@ -292,18 +287,4 @@ h3 {
     h3 {
         font-size: 65px;
     }
-}
-
-section {
-    display: flex;
-    justify-content: space-around;
-    /* height: 90vh; */
-}
-
-section div {
-    height: 100px;
-    width: 100px;
-    border: solid 2px #29a6dc;
-    text-align: center;
-    line-height: 100px;
 }

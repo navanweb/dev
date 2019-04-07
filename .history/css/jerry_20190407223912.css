@@ -262,6 +262,7 @@ h3 {
     font-family: 'Saira', sans-serif;
     font-weight: bold;
     background-color: #29a6dc;
+    font-size: 35px;
     color: white;
     text-transform: uppercase;
     height: 10vh;
@@ -270,40 +271,21 @@ h3 {
     line-height: 10vh;
 }
 
-@media (min-width:320px) {
+@media (min-width:320px) and (max-width:767px) {
     h3 {
         font-size: 20px;
     }
 }
 
-@media (min-width:640px) {
-    h3 {
-        font-size: 30px;
-    }
-}
-
 @media (min-width:768px) {
     h3 {
+        /* height: 20vh; */
         font-size: 45px;
     }
 }
 
-@media (min-width:1280px) {
+@media (min-width:1024px) {
     h3 {
-        font-size: 65px;
+        font-size: 45px;
     }
-}
-
-section {
-    display: flex;
-    justify-content: space-around;
-    /* height: 90vh; */
-}
-
-section div {
-    height: 100px;
-    width: 100px;
-    border: solid 2px #29a6dc;
-    text-align: center;
-    line-height: 100px;
 }

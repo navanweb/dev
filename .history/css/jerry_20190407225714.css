@@ -296,14 +296,13 @@ h3 {
 
 section {
     display: flex;
-    justify-content: space-around;
-    /* height: 90vh; */
+    height: 90vh;
 }
 
 section div {
-    height: 100px;
-    width: 100px;
-    border: solid 2px #29a6dc;
+    /* height: 100px; */
+    /* width: 100px; */
+    border: solid 2px green;
     text-align: center;
     line-height: 100px;
 }
